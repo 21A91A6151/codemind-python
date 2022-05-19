@@ -1,25 +1,28 @@
 x=int(input())
 temp=x
-z=x*x
 c=0
-while x>0:
+s=0
+temp1=x
+k=x*x
+z=0
+while x:
     d=x%10
     x=x//10
     c+=1
-v=0
-w=0
-while z>0 and c>0:
-    d=z%10
-    z=z//10
+while c:
+    d=k%10
+    k=k//10
+    s=s*10+d
     c-=1
-    v=v*10+d
-while v!=0:
-    d=v%10
-    v=v//10
-    w=w*10+d
-if(w==temp):
+while s:
+    d=s%10
+    s=s//10
+    z=z*10+d
+if(z==temp1):
     print("Automorphic Number")
 else:
     print("Not an Automorphic Number")
+    
+    
 
     
