@@ -1,11 +1,14 @@
 x=input()
 x=x.lower()
-x=x.split()
-k=0
-for i in x:
-    z=i[::-1]
-    if(i==z):
-        k+=1
+k=x.split()
+c=0
+for i in k:
+    s=i
+    h=i[::-1]
+    if h==s:
+        c+=1
     else:
-        continue
-print(k)
+        pass
+print(c)
+    
+    
