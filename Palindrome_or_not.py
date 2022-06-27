@@ -1,7 +1,7 @@
 x=input()
 x=x.lower()
 k=x[::-1]
-if(k==x):
+if x==k:
     print("True")
 else:
     print("False")
