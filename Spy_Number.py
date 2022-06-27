@@ -1,17 +1,14 @@
 x=int(input())
-z=0
-k=1
-temp=x
-while (x):
-    d=x%10
-    x=x//10
-    z=z+d
-while(temp):
-    d=temp%10
-    temp=temp//10
-    k=k*d
-if(k==z):
-    print ("Spy Number")
+k=str(x)
+s=0
+h=1
+for i in k:
+    i=int(i)
+    s+=i
+for i in k:
+    i=int(i)
+    h*=i
+if h==s:
+    print("Spy Number")
 else:
     print("Not Spy Number")
-    
