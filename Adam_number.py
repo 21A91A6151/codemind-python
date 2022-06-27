@@ -1,17 +1,14 @@
 x=int(input())
-s=x*x
-z=0
-t=0
-while(x):
-    d=x%10
-    x=x//10
-    z=z*10+d
-l=z*z
-while(l):
-    d=l%10
-    l=l//10
-    t=t*10+d
-if(t==s):
-     print("True")
+k=x*x
+z=str(x)
+z=z[::-1]
+z=int(z)
+h=z*z
+h=str(h)
+h=h[::-1]
+h=int(h)
+if h==k:
+    print("True")
 else:
     print("False")
+    
