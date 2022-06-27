@@ -1,8 +1,9 @@
 import math
 x=int(input())
 k=math.sqrt(x)
-y=int(k)
-if(k==y):
+k=int(k)
+z=k*k
+if x==int(z):
     print("True")
 else:
     print("False")
