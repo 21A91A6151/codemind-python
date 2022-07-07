@@ -1,10 +1,6 @@
 x=input()
-s=0
+x=x.split()
+s=[]
 for i in x:
-    if i==" ":
-        print(s,end=" ")
-        s=0
-    else:
-        s+=1
-print(s)
-        
+    k=len(i)
+    print(k,end=" ")
