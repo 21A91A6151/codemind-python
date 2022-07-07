@@ -1,13 +1,10 @@
 x=input()
-z=0
+s=len(x)
+c=0
 for i in x:
-    c=0
-    for j in x:
-        if i==j:
-            c+=1
-    if c>1:
-        z+=1
-if z==0:
+    if x.count(i)==1:
+        c+=1
+if c==s:
     print("True")
 else:
     print("False")
