@@ -1,10 +1,10 @@
 x,y=map(int,input().split())
 l=list(map(int,input().split()))
-m=list(map(int,input().split()))
-k=set(l)
-n=set(m)
+l=set(l)
+k=list(map(int,input().split()))
+k=set(k)
 c=0
-for i in k:
-    if i in n:
+for i in l:
+    if i in k:
         c+=1
 print(c)
