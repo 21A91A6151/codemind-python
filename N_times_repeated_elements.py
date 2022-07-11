@@ -9,4 +9,3 @@ for i in k:
         print(i,end=" ")
 if c==0:
     print("-1")
-    
