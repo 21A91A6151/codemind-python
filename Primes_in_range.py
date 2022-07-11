@@ -10,6 +10,6 @@ k=0
 for i in range(x,y+1):
     if i==1:
         continue
-    if prime(i) and i!=1:
+    if prime(i):
         k+=1
 print(k)
