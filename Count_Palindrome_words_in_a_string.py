@@ -10,5 +10,3 @@ for i in k:
     else:
         pass
 print(c)
-    
-    
