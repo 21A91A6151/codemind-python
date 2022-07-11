@@ -8,4 +8,3 @@ while x!=0:
         x=k
         k=0
 print(k)
-    
