@@ -6,9 +6,9 @@ def prime(i):
         return 1
 x=int(input())
 y=int(input())
-x=x+y
+a=x+y
 for i in range(1,10):
-    k=x+i
+    k=a+i
     if prime(k):
         print(i)
         break
