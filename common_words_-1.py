@@ -10,5 +10,3 @@ for i in x:
         if i==j:
             c+=1
 print(c)
-            
-        
