@@ -6,7 +6,7 @@ k=0
 s=[]
 for i in y:
     if i in x:
-        if i in " ":
+        if i==" ":
             continue
         if i not in s:
             s.append(i)
