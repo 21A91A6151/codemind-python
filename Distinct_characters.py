@@ -8,4 +8,5 @@ for i in x:
         if i not in s:
             s.append(i)
 k=sorted(s)
-print("".join(k))
+for i in k:
+    print(i,end="")
