@@ -3,6 +3,8 @@ x=x.lower()
 x=x.split()
 s=[]
 for i in x:
-    s.append(i)
-k=sorted(s)
-print(*k)
+    if i==" ":
+        continue
+    if i not in s:
+        s.append(i)
+print(*sorted(s))
