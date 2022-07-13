@@ -1,12 +1,10 @@
 x=input()
 y=input()
-x=x.split()
 y=y.split()
+x=x.split()
 k=0
-s=[]
 for i in x:
-    if y.count(i)==1 and x.count(i)==1:
-        if i not in s:
-            s.append(i)
+    if i in y:
+        if y.count(i)==1 and x.count(i)==1:
             k+=1
-print(len(s))
+print(k)
