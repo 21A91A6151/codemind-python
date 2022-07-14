@@ -6,10 +6,10 @@ for i in l:
     if l.count(i)==i:
         if i not in s:
             s.append(i)
+for i in s:
+    k=k+i
 h=len(s)
-if h==0:
+if(h==0):
     print("-1")
 else:
-    for i in s:
-        k=k+i
     print("{:.2f}".format(k/h))
