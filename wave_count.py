@@ -1,13 +1,13 @@
-n=int(input())
-a=list(map(int,input().split()))
-c=0
-for i in range(0,n-2,2):
-    if a[i]<a[i+1]  and a[i+1]>a[i+2]:
-        c+=1
+x=int(input())
+l=list(map(int,input().split()))
+k=0
+h=0
+for i in range(0,len(l)-2,2):
+    if l[i]<l[i+1] and l[i+1]>l[i+2]:
+        h+=1
     else:
-        c=0
-        break
-if(c==0):
+        k+=1
+if k>0:
     print("-1")
 else:
-    print(c)
+    print(h)
