@@ -1,6 +1,7 @@
 x=input()
-x=x.split()
-s=[]
-for i in x:
-    s.append(i)
-print(*s[::-1])
+k=x.split()
+l=[]
+for i in k:
+    l.append(i)
+l=l[::-1]
+print(*l)
