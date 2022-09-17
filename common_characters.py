@@ -17,4 +17,3 @@ if s==0:
 else:
     for i in k:
         print(i,end="")
-        
