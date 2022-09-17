@@ -10,4 +10,3 @@ for i in s:
         if(i[j] not in 'AEIOUaeiou') and i[-(j+1)] in 'AEIOUaeiou)':
             c+=1
 print(c)
-            
